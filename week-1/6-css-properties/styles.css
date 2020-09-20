@@ -1,1 +1,22 @@
 /* Add your CSS code below */
+[href="https://goo.gl/maps/aza4h9nUBhn"] {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+[href="https://media.giphy.com/media/l41K4KlVE8dgozf8I/giphy.gif"] {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+p {
+  font-size: 0.9rem;
+  word-spacing: 0.1cm;
+}
+.message--unread {
+  border-color: blue;
+  border-style: solid;
+}
+.message {
+  opacity: 0.5;
+}
