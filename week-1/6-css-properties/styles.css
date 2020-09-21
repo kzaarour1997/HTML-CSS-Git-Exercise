@@ -11,7 +11,7 @@
 }
 p {
   font-size: 0.9rem;
-  word-spacing: 0.1cm;
+  line-height: 0.1cm;
 }
 .message--unread {
   border-left-color: blue;
