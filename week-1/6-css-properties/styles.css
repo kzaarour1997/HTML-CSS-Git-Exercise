@@ -14,9 +14,9 @@ p {
   word-spacing: 0.1cm;
 }
 .message--unread {
-  border-color: blue;
-  border-style: solid;
+  border-left-color: blue;
+  border-left-style: solid;
 }
-.message {
+.message:first-child {
   opacity: 0.5;
 }
