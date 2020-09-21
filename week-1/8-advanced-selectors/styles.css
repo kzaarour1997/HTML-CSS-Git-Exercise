@@ -11,6 +11,6 @@ p {
   font-size: 12px;
   text-align: center;
 }
-.message--unread > p {
+.messages .message:last-child {
   box-shadow: 4px 4px 0 #dba944;
 }
