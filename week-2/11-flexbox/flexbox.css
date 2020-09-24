@@ -1,5 +1,16 @@
 /* Add your own CSS code below */
-.container {
+.countries--first {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-content: stretch;
+}
+.countries--second {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.countries--third {
+  flex-direction: column-reverse;
 }
