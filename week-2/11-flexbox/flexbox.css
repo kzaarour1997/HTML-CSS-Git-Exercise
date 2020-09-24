@@ -1,1 +1,15 @@
 /* Add your own CSS code below */
+.countries--first {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.countries--second {
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+.countries--third {
+  flex-direction: column-reverse;
+}
+body {
+  background-color: green;
+}
