@@ -3,3 +3,65 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.countries--second {
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  flex-direction: row-reverse;
+}
+
+.countries--third {
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.countries--third .country--brazil {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.countries--fourth .country--ethiopia {
+  align-self: center;
+}
+
+.countries--fourth .country--laos {
+  align-self: center;
+}
+.countries--fifth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.countries--fifth .country--uganda {
+  align-self: center;
+  order: 1;
+}
+.countries--fifth .country--laos {
+  order: 0;
+}
+.countries--fifth .country--ethiopia {
+  order: 2;
+}
+.countries--fifth .country--brazil {
+  order: 4;
+}
+.countries--fifth .country--croatia {
+  order: 3;
+}
